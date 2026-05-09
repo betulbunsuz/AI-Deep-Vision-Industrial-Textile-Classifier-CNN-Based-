@@ -1,0 +1,9 @@
+Model Info:
+
+Model Architecture: CNN (Convolutional Neural Network)
+
+Framework: TensorFlow / Keras
+
+Input Size: 150x150 pixels (RGB)
+
+Status: Pre-trained on 500+ fabric images.
