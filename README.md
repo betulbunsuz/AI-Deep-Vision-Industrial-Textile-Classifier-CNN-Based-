@@ -16,9 +16,10 @@ Kütüphaneler: Python, TensorFlow, Keras, OpenCV ve NumPy.
 
 Veri Artırma (Data Augmentation): Modelin farklı ışık ve açılarda da çalışabilmesi için döndürme, yakınlaştırma ve yatay çevirme teknikleri uygulanmıştır.
 
-├── src/                 # CNN model mimarisi ve eğitim kodları (Python)
-├── dataset/             # Örme ve Dokuma kumaş örnek görselleri (Örnekler)
+├── train.py/                 # CNN model mimarisi ve eğitim kodları (Python)
+├── orme.jpeg-dokuma.jpeg/             # Örme ve Dokuma kumaş örnek görselleri (Örnekler)
 ├── models/              # Eğitilmiş model dosyaları (.h5)
+|---requirements.txt      # Kütüphaneler
 └── README.md            # Proje dökümantasyonu
 📊 Performans ve Sonuçlar
 Yapılan testlerde model, test veri seti üzerinde %92 doğruluk (accuracy) oranına ulaşmıştır. Sonuçlar, karmaşıklık matrisi (confusion matrix) üzerinden analiz edilerek endüstriyel kararlarda güvenilirlik sağlanmıştır.
